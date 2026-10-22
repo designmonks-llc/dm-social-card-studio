@@ -37,6 +37,8 @@ assets/
                            Playfair Display 700 and 700 Italic (woff2)
   images/                  Template layers (backgrounds, props, rings, glows,
                            sample people) as WebP, one file per key in META
+  meta/                    Favicon, Apple touch icon and the social preview image
+                           (og-image.png, 1200 × 630)
 tools/
   build-embedded.py        Rebuilds js/embedded-assets.js from assets/images/
 ```
@@ -50,6 +52,10 @@ If you add or replace anything in `assets/images/`, regenerate the file:
 ```sh
 python3 tools/build-embedded.py
 ```
+
+## Link previews
+
+The Open Graph and Twitter tags in `index.html` point at `https://designmonks.github.io/DM-Social-Card-Studio/`, the GitHub Pages address. If the studio is hosted somewhere else, update `og:url`, `og:image`, `twitter:image` and the canonical link to match.
 
 ## Template values
 
