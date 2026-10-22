@@ -2,17 +2,17 @@ html{-webkit-text-size-adjust:100%}body{margin:0}img{max-width:100%}
 /* Layout: two-pane studio. Form column on the left, live canvas preview on the right; stacks on phones. */
 :root{
   --bg:#F3F1F7; --panel:#FFFFFF; --ink:#18131F; --muted:#6A6475; --line:#E2DDEA;
-  --accent:#7D40FF; --accent-ink:#FFFFFF; --accent-soft:#EEE6FF; --stage:#0E0322; --warn:#9A5B00; --warn-soft:#FFF3DC; --chk-a:#FFFFFF; --chk-b:#E4E0EA;
+  --accent:#7D40FF; --accent-fill:#7D40FF; --accent-ink:#FFFFFF; --accent-soft:#EEE6FF; --stage:#0E0322; --warn:#9A5B00; --warn-soft:#FFF3DC; --chk-a:#FFFFFF; --chk-b:#E4E0EA;
   --head:RHD,"Red Hat Display",system-ui,sans-serif;
   --ui:OUT,Outfit,system-ui,-apple-system,"Segoe UI",sans-serif;
   --serif:PF,"Playfair Display",Georgia,serif;
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
   --bg:#100D16; --panel:#19151F; --ink:#F1EDF7; --muted:#A39BB0; --line:#2C2636;
-  --accent:#9A6BFF; --accent-ink:#120B23; --accent-soft:#2A1F45; --stage:#07020F; --warn:#F2B866; --warn-soft:#3A2A10; --chk-a:#2A2533; --chk-b:#1F1B26; color-scheme:dark}}
+  --accent:#9A6BFF; --accent-fill:#7D40FF; --accent-ink:#FFFFFF; --accent-soft:#2A1F45; --stage:#07020F; --warn:#F2B866; --warn-soft:#3A2A10; --chk-a:#2A2533; --chk-b:#1F1B26; color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#100D16; --panel:#19151F; --ink:#F1EDF7; --muted:#A39BB0; --line:#2C2636;
-  --accent:#9A6BFF; --accent-ink:#120B23; --accent-soft:#2A1F45; --stage:#07020F; --warn:#F2B866; --warn-soft:#3A2A10; --chk-a:#2A2533; --chk-b:#1F1B26; color-scheme:dark}
+  --accent:#9A6BFF; --accent-fill:#7D40FF; --accent-ink:#FFFFFF; --accent-soft:#2A1F45; --stage:#07020F; --warn:#F2B866; --warn-soft:#3A2A10; --chk-a:#2A2533; --chk-b:#1F1B26; color-scheme:dark}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
 body{background:var(--bg);color:var(--ink);font-family:var(--ui);font-size:15px;line-height:1.45;
@@ -74,7 +74,8 @@ input[type=text]::placeholder{color:var(--muted);opacity:.7;font-style:italic}
 .range output{font-variant-numeric:tabular-nums;color:var(--muted);text-align:right;font-size:13px}
 .row{display:flex;flex-wrap:wrap;gap:8px}
 .btn{appearance:none;font:inherit;font-weight:700;border-radius:10px;padding:11px 16px;border:1px solid var(--line);background:transparent;color:var(--ink);cursor:pointer}
-.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+/* Filled buttons use --accent-fill so white text stays at 4.5:1 or better in both themes. */
+.btn.primary{background:var(--accent-fill);border-color:var(--accent-fill);color:var(--accent-ink)}
 .btn:disabled{opacity:.5;cursor:default}
 .btn.sm{padding:6px 12px;font-size:13px;border-radius:8px;background:var(--panel)}
 .btn.quiet{border-color:transparent;background:transparent;color:var(--muted)}
@@ -93,7 +94,7 @@ input[type=text]::placeholder{color:var(--muted);opacity:.7;font-style:italic}
 .move-row{display:none;align-items:center;justify-content:space-between;gap:10px;font-size:13px;color:var(--muted)}
 @media (pointer:coarse){.move-row.on{display:flex}}
 .toggle{appearance:none;font:inherit;font-size:13px;font-weight:500;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:999px;padding:6px 14px;cursor:pointer;white-space:nowrap;flex:none}
-.toggle[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.toggle[aria-pressed="true"]{background:var(--accent-fill);border-color:var(--accent-fill);color:var(--accent-ink)}
 #cv.draggable{cursor:grab}
 #cv.dragging{cursor:grabbing}
 .sample-note{margin:0;display:flex;gap:8px;align-items:center;font-size:13px;color:var(--muted)}
@@ -101,7 +102,7 @@ input[type=text]::placeholder{color:var(--muted);opacity:.7;font-style:italic}
 .fit-note{margin:0;font-size:13px;color:var(--muted)}
 .actions{display:grid;grid-template-columns:2fr 1fr 1fr;gap:8px}
 @media (max-width:600px){.actions{grid-template-columns:1fr 1fr}.actions .primary{grid-column:1/-1}.fmts{grid-template-columns:repeat(auto-fit,minmax(96px,1fr))}.fmt i{display:none}.fmt{padding:8px 10px}}
-.btn span.sz{font-weight:400;opacity:.8;margin-left:6px;font-size:13px}
+.btn span.sz{font-weight:400;margin-left:6px;font-size:13px}
 .loading{position:absolute;inset:0;display:grid;place-items:center;color:#fff;font-weight:500;background:rgba(7,2,15,.55)}
 .status{font-size:13px;color:var(--muted);min-height:1.2em}
 .hint{font-size:13px;color:var(--muted);margin:0}
