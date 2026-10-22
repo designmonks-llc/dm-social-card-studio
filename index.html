@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>DesignMonks Post Studio</title>
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="wrap">
+  <header>
+    <h1>designmonks <em>Post Studio</em></h1>
+    <p class="sub">Pick a post, fill in the details, add a transparent PNG of the person, then download or copy the finished post. Backgrounds, 3D props, fonts and spacing come straight from the Figma templates.</p>
+  </header>
+
+  <div class="studio">
+    <section class="panel area-types" aria-label="Post type">
+      <div class="label">Post type</div>
+      <div class="types" id="types"></div>
+    </section>
+
+    <div class="stagewrap area-stage">
+      <div class="fmts" id="fmts" role="group" aria-label="Size"></div>
+      <p class="sample-note" id="sampleBadge" hidden><i aria-hidden="true"></i>Preview is using sample content. Fill in every field and add a photo to replace it.</p>
+      <div class="stage" id="stage">
+        <canvas id="cv" width="800" height="1000" aria-label="Post preview"></canvas>
+        <div class="loading" id="loading">Loading template&hellip;</div>
+      </div>
+      <div class="move-row" id="moveRow"><span id="moveHint">Drag the person with your finger.</span><button class="toggle" id="moveToggle" type="button" aria-pressed="false">Move photo</button></div>
+      <p class="fit-note" id="fitNote" hidden></p>
+      <div class="actions">
+        <button class="btn primary" id="dlOne" type="button">Download PNG</button>
+        <button class="btn" id="copyImg" type="button">Copy image</button>
+        <button class="btn" id="dlAll" type="button">All sizes (.zip)</button>
+      </div>
+      <div class="status" id="status" role="status" aria-live="polite"></div>
+    </div>
+
+    <section class="panel area-form" aria-label="Post content">
+      <div class="section" id="fields"></div>
+      <div class="section" id="photoSec">
+        <div class="label-row"><div class="label">Photo</div><span class="spec">Transparent PNG &middot; waist-up &middot; 3024 &times; 3780 px ideal</span></div>
+        <label class="drop" id="drop" for="file">
+          <svg class="drop-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 16V4m0 0-4.5 4.5M12 4l4.5 4.5M4 15v3a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span class="drop-text"><b>Upload the person&rsquo;s photo</b><span><span class="fine-only">Drag a PNG here or click to browse.</span><span class="coarse-only">Tap to choose a PNG from your files.</span> Until then the preview shows a sample photo.</span></span>
+          <input type="file" id="file" accept="image/png,image/webp">
+        </label>
+        <div class="photo-card" id="photoCard" hidden>
+          <img class="thumb" id="thumb" alt="Uploaded photo">
+          <div class="pc-info"><b id="photoName"></b><span id="photoMeta"></span></div>
+          <div class="pc-actions">
+            <button class="btn sm" id="replacePhoto" type="button">Replace</button>
+            <button class="btn sm quiet" id="clearPhoto" type="button">Remove</button>
+          </div>
+        </div>
+        <div class="note" id="photoNote" hidden></div>
+        <div class="adjust" id="adjust">
+          <div class="adjust-head"><span class="sublabel">Adjust photo <span class="adj-for" id="adjFor"></span></span><button class="linkbtn" id="resetPos" type="button">Reset</button></div>
+          <div class="range"><label for="zoom">Photo size</label><input type="range" id="zoom" min="50" max="220" step="1" value="100"><output id="zoomOut" for="zoom">100%</output></div>
+          <div class="range"><label for="posx">Left / right</label><input type="range" id="posx" min="-500" max="500" step="1" value="0"><output id="posxOut" for="posx">0 px</output></div>
+          <div class="range"><label for="posy">Up / down</label><input type="range" id="posy" min="-600" max="600" step="1" value="0"><output id="posyOut" for="posy">0 px</output></div>
+          <p class="hint">Tip: drag the person on the preview to move them (on a phone, tap Move photo first). Each size keeps its own adjustment.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+
+<script src="js/vendor/jszip.min.js"></script>
+<script src="js/embedded-assets.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
