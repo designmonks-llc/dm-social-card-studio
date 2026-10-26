@@ -55,7 +55,7 @@ python3 tools/build-embedded.py
 
 ## Link previews
 
-The Open Graph and Twitter tags in `index.html` point at `https://designmonks.github.io/DM-Social-Card-Studio/`, the GitHub Pages address. If the studio is hosted somewhere else, update `og:url`, `og:image`, `twitter:image` and the canonical link to match.
+The Open Graph and Twitter tags in `index.html` point at `https://designmonks-llc.github.io/dm-social-card-studio/`, the GitHub Pages address. If the studio is hosted somewhere else, update `og:url`, `og:image`, `twitter:image` and the canonical link to match.
 
 ## Template values
 
