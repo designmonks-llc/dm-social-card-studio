@@ -61,10 +61,10 @@
     <section class="panel area-form" aria-label="Post content">
       <div class="section" id="fields"></div>
       <div class="section" id="photoSec">
-        <div class="label-row"><div class="label">Photo</div><span class="spec">Transparent PNG &middot; waist-up &middot; 3024 &times; 3780 px ideal</span></div>
+        <div class="label-row"><div class="label">Photo</div><span class="spec" id="photoSpec">Transparent PNG &middot; waist-up &middot; 3024 &times; 3780 px ideal</span></div>
         <label class="drop" id="drop" for="file">
           <svg class="drop-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 16V4m0 0-4.5 4.5M12 4l4.5 4.5M4 15v3a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          <span class="drop-text"><b>Upload the person&rsquo;s photo</b><span><span class="fine-only">Drag a PNG here or click to browse.</span><span class="coarse-only">Tap to choose a PNG from your files.</span> Until then the preview shows a sample photo.</span></span>
+          <span class="drop-text"><b id="dropTitle">Upload the person&rsquo;s photo</b><span><span class="fine-only" id="dropFine">Drag a PNG here or click to browse.</span><span class="coarse-only" id="dropCoarse">Tap to choose a PNG from your files.</span> Until then the preview shows a sample photo.</span></span>
           <input type="file" id="file" accept="image/png,image/webp">
         </label>
         <div class="photo-card" id="photoCard" hidden>
@@ -81,7 +81,7 @@
           <div class="range"><label for="zoom">Photo size</label><input type="range" id="zoom" min="50" max="220" step="1" value="100"><output id="zoomOut" for="zoom">100%</output></div>
           <div class="range"><label for="posx">Left / right</label><input type="range" id="posx" min="-500" max="500" step="1" value="0"><output id="posxOut" for="posx">0 px</output></div>
           <div class="range"><label for="posy">Up / down</label><input type="range" id="posy" min="-600" max="600" step="1" value="0"><output id="posyOut" for="posy">0 px</output></div>
-          <p class="hint">Tip: drag the person on the preview to move them (on a phone, tap Move photo first). Each size keeps its own adjustment.</p>
+          <p class="hint" id="adjTip">Tip: drag the person on the preview to move them (on a phone, tap Move photo first). Each size keeps its own adjustment.</p>
         </div>
       </div>
     </section>

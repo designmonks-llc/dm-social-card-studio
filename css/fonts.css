@@ -9,3 +9,5 @@
 @font-face{font-family:OUT;src:url("../assets/fonts/outfit-500.woff2") format("woff2");font-weight:500;font-style:normal;font-display:block}
 @font-face{font-family:PF;src:url("../assets/fonts/playfair-display-700-italic.woff2") format("woff2");font-weight:700;font-style:italic;font-display:block}
 @font-face{font-family:PF;src:url("../assets/fonts/playfair-display-700.woff2") format("woff2");font-weight:700;font-style:normal;font-display:block}
+/* BEB = Bebas Neue (DM Bites headline and tag), latin subset from @fontsource/bebas-neue 5.3.0, OFL-1.1 */
+@font-face{font-family:BEB;src:url("../assets/fonts/bebas-neue-400.woff2") format("woff2");font-weight:400;font-style:normal;font-display:block}

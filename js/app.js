@@ -36,6 +36,7 @@ const META = {
   "hire_short_bg": {"w":1252,"h":438},
   "rising_glow": {"x":0.0,"y":1270.4,"w":2000.0,"h":1229.6},
   "promotion_glow": {"x":0.0,"y":1140.0,"w":2000.0,"h":1360.0},
+  "bites_sample": {"w":2320,"h":1740},
 };
 const LOGO = {d:"M943.613 133.335C948.512 133.335 952.375 135.129 954.79 138.372V136.164C954.79 135.019 955.714 134.094 956.859 134.094H963.345V164.456C963.345 175.565 956.376 181.5 945.683 181.5C939.964 181.5 934.9 179.802 930.498 176.448C929.595 175.765 929.436 174.468 930.119 173.564L933.816 168.665C937.611 171.494 940.785 173.081 944.924 173.081C950.443 173.081 954.031 170.321 954.031 165.008V163.145C951.548 165.836 947.96 167.216 943.613 167.216C934.162 167.216 927.263 160.247 927.263 150.241C927.263 140.236 934.3 133.335 943.613 133.335ZM866.221 133.339C875.672 133.339 882.296 140.308 882.296 149.21C882.296 150.866 882.089 152.591 881.675 154.316H857.737C858.843 158.659 862.361 161.071 867.325 161.071C870.706 161.071 873.879 159.898 876.846 157.621L879.743 162.383C880.302 163.307 880.067 164.515 879.191 165.143C875.514 167.751 871.471 169.083 867.049 169.083C856.493 169.29 848.146 161.078 848.353 151.211C848.146 141.343 856.355 133.132 866.221 133.339ZM898.088 133.335C902.42 133.335 906.008 134.577 908.892 137.02C909.754 137.751 909.879 139.048 909.161 139.925L905.684 144.176C903.407 142.037 900.855 140.933 898.026 140.933C895.75 140.933 894.369 141.761 894.369 143.348C894.369 144.659 895.267 145.28 897.957 146.384L901.269 147.764C907.892 150.455 910.858 153.146 910.858 158.184C910.858 161.565 909.616 164.255 907.063 166.188C904.58 168.12 901.406 169.086 897.543 169.086C892.279 169.086 887.753 167.174 884.628 163.903C883.89 163.137 883.828 161.944 884.511 161.123L888.092 156.803C891.056 159.903 894.296 161.42 897.674 161.42C900.157 161.42 902.02 160.454 902.021 158.591C902.021 157.142 901.055 156.589 898.502 155.485L894.846 153.967C888.568 151.414 885.532 148.585 885.532 143.548C885.532 137.131 890.637 133.335 898.088 133.335ZM842.531 116.5C843.676 116.5 844.602 117.425 844.602 118.57V168.253H838.116C836.971 168.253 836.047 167.328 836.047 166.183V164.044C833.77 167.287 829.768 169.081 825.077 169.081C815.557 169.081 808.52 161.491 808.52 151.209C808.52 140.927 815.557 133.337 825.077 133.337C829.424 133.337 832.804 134.717 835.288 137.408V116.5H842.531ZM1178.71 133.266C1183.04 133.266 1186.63 134.507 1189.51 136.95C1190.38 137.682 1190.5 138.979 1189.78 139.855L1186.31 144.106C1184.03 141.967 1181.48 140.862 1178.65 140.862C1176.37 140.862 1174.99 141.691 1174.99 143.278C1174.99 144.589 1175.89 145.211 1178.58 146.314L1181.89 147.694C1188.51 150.385 1191.48 153.076 1191.48 158.113C1191.48 161.494 1190.24 164.186 1187.69 166.118C1185.2 168.05 1182.03 169.017 1178.17 169.017C1172.9 169.017 1168.38 167.105 1165.25 163.834C1164.51 163.068 1164.45 161.875 1165.13 161.054L1168.71 156.733C1171.68 159.834 1174.92 161.35 1178.3 161.35C1180.78 161.35 1182.64 160.384 1182.64 158.521C1182.64 157.072 1181.68 156.52 1179.12 155.416L1175.47 153.897C1169.19 151.344 1166.15 148.515 1166.15 143.478C1166.15 137.06 1171.26 133.266 1178.71 133.266ZM923.732 166.19C923.732 167.336 922.808 168.261 921.663 168.261H914.419V134.704H919.696C921.152 134.704 922.518 134.387 923.732 133.814V166.19ZM985.656 133.335C993.59 133.335 998.489 138.786 998.489 147.066V168.251H991.313C990.168 168.251 989.244 167.326 989.244 166.181V148.309C989.244 144.376 986.692 141.685 982.897 141.685C979.103 141.685 976.412 144.375 976.412 148.309V168.251H969.168C968.023 168.251 967.099 167.326 967.099 166.181V134.094H973.583C974.728 134.094 975.653 135.019 975.653 136.164V137.199C978.068 134.784 981.586 133.335 985.656 133.335ZM1139.59 116.5C1140.74 116.5 1141.66 117.425 1141.66 118.57V148.587L1152.68 135.518C1153.48 134.572 1154.66 134.027 1155.9 134.027H1164.99L1152.15 149.139L1166.02 168.184H1157.5C1156.18 168.184 1154.93 167.549 1154.15 166.479L1141.66 149.276V168.184H1134.42C1133.28 168.184 1132.35 167.259 1132.35 166.113V116.5H1139.59ZM1041.95 133.255C1049.95 133.255 1054.85 138.707 1054.85 146.987V168.178H1047.61C1046.46 168.178 1045.54 167.254 1045.54 166.108V148.305C1045.54 144.234 1043.12 141.681 1039.47 141.681C1035.81 141.681 1033.19 144.303 1033.19 148.098V168.178H1025.94C1024.8 168.178 1023.87 167.254 1023.87 166.108V148.305C1023.87 144.234 1021.46 141.681 1017.8 141.681C1014.15 141.681 1011.52 144.234 1011.52 148.305V168.178H1004.28C1003.14 168.178 1002.21 167.254 1002.21 166.108V134.015H1008.7C1009.84 134.015 1010.77 134.939 1010.77 136.085V137.051C1013.04 134.636 1016.49 133.255 1020.42 133.255C1024.91 133.255 1028.29 134.911 1030.57 138.154C1033.26 135.118 1037.26 133.255 1041.95 133.255ZM1115.78 133.255C1123.71 133.255 1128.61 138.707 1128.61 146.987V168.178H1121.43C1120.29 168.178 1119.36 167.254 1119.36 166.108V148.236C1119.36 144.303 1116.81 141.611 1113.02 141.611C1109.22 141.611 1106.53 144.303 1106.53 148.236V168.178H1099.29C1098.14 168.178 1097.22 167.254 1097.22 166.108V134.015H1103.7C1104.85 134.015 1105.77 134.94 1105.77 136.085V137.119C1108.19 134.704 1111.71 133.255 1115.78 133.255ZM1076.76 133.255C1078.96 133.255 1081.13 133.69 1083.17 134.532C1085.2 135.374 1087.05 136.602 1088.6 138.161C1090.16 139.721 1091.39 141.563 1092.23 143.599C1093.08 145.627 1093.51 147.809 1093.51 150.01V152.052C1093.51 154.17 1093.09 156.268 1092.28 158.221C1091.47 160.18 1090.29 161.954 1088.79 163.451C1087.29 164.949 1085.51 166.136 1083.56 166.943C1081.6 167.757 1079.51 168.171 1077.39 168.171H1060.3C1059.84 168.171 1059.41 167.992 1059.09 167.675C1058.77 167.35 1058.59 166.922 1058.59 166.467V149.368C1058.59 145.097 1060.29 140.998 1063.31 137.976C1066.33 134.953 1070.43 133.255 1074.7 133.255H1076.76ZM826.802 141.756C821.835 141.756 817.972 145.551 817.972 151.14C817.972 156.729 821.766 160.594 826.802 160.594C831.493 160.594 835.426 157.35 835.426 151.209C835.426 145.068 831.493 141.756 826.802 141.756ZM945.545 141.271C940.509 141.271 936.715 144.652 936.715 150.172C936.715 155.692 940.578 159.35 945.545 159.35C950.236 159.35 954.169 155.968 954.169 150.103C954.169 144.237 950.305 141.271 945.545 141.271ZM1084.24 152.335C1083.93 152.314 1083.62 152.411 1083.38 152.618C1075.61 159.387 1069.12 152.963 1068.84 152.68C1068.62 152.466 1068.32 152.342 1068.01 152.342C1067.7 152.342 1067.4 152.466 1067.18 152.68C1066.96 152.894 1066.83 153.184 1066.82 153.494C1066.82 153.805 1066.93 154.101 1067.14 154.329C1067.23 154.421 1069.24 156.462 1072.43 157.489C1073.61 157.876 1074.83 158.076 1076.07 158.076C1078.64 158.076 1081.71 157.207 1084.93 154.398C1085.17 154.191 1085.31 153.901 1085.33 153.591C1085.35 153.28 1085.25 152.97 1085.04 152.735C1084.84 152.501 1084.55 152.356 1084.24 152.335ZM888.092 156.803C888.09 156.8 888.087 156.798 888.085 156.796H888.099L888.092 156.803ZM1168.71 156.733C1168.71 156.731 1168.71 156.729 1168.71 156.727H1168.72L1168.71 156.733ZM865.876 140.854C861.806 140.854 858.77 143.545 857.735 147.754H873.258C873.189 143.545 869.946 140.854 865.876 140.854ZM919.704 120.673C922.657 120.673 925.051 122.881 925.051 125.834C925.051 128.787 922.657 130.933 919.704 130.934H914.419V125.834C914.419 122.888 916.751 120.673 919.704 120.673Z", x:808.5, y:116.5, w:383, h:65};
 
@@ -51,12 +52,27 @@ const HIRE_FMTS = {
   wide: {label:"Banner",ratio:"4:1",  W:3200, H:800,  bg:"hire_wide_bg"},
   short:{label:"Banner",ratio:"1252\u00d7438", W:1252, H:438, bg:"hire_short_bg"}
 };
+// DM Bites is laid out on the 1080 x 1350 Figma frame and exported at 2x.
+const BITES_FMTS = {
+  feed: {label:"Feed",  ratio:"4:5",  W:2160, H:2700, s:2}
+};
+/* DM Bites layout, in Figma frame pixels (Socials 02 / Static 22). */
+const BITES = {
+  photo:[0,0,1080,867], panel:[0,867,1080,483], panelFill:"#111111", accent:"#30FFA5",
+  tag:{x:0, y:814, h:58, textX:86, textY:821, size:48, track:-0.03, padTop:127, padBottom:74.855},
+  head:{cx:540.5, y:899, w:959, size:97, track:-0.03, maxH:291, minSize:56},
+  rule:[60,1225,961,2],
+  meta:{cx:539.5, y:1266, size:24, track:-0.03, sup:15.48, supRise:6.5},
+  mark:{x:951.9998, y:42.0935,
+    d:"M82.9224 27.0437C82.1945 27.2974 81.4665 27.4876 80.7069 27.6461C69.5346 30.0873 58.5204 22.9856 56.1151 11.794C56.0834 11.6989 56.0834 11.6355 56.0834 11.572C47.2215 12.6183 38.8026 7.89436 35.0363 0C26.1744 0.951127 17.8821 4.91416 11.5205 11.2867C4.14612 18.6738 0 28.724 0 39.1864V81.0043C0 82.114 0.411447 83.1919 1.20269 83.9528C1.99394 84.7454 3.03838 85.1893 4.14612 85.1893H45.9238C51.0827 85.1893 56.21 84.1748 60.9891 82.1774C65.7682 80.2117 70.1043 77.2949 73.7756 73.649C77.4154 69.9713 80.3271 65.6278 82.2894 60.8404C84.2834 56.0531 85.2962 50.917 85.2962 45.7492V40.74C85.2962 36.0794 84.5049 31.4506 82.9224 27.0437ZM64.344 51.4877C56.4949 58.3358 48.9939 60.4917 42.6956 60.4917C39.6888 60.46 36.6821 59.9844 33.802 59.0333C26.0161 56.5287 21.1104 51.5194 20.8889 51.2975C20.3825 50.7585 20.0976 50.0293 20.1293 49.2684C20.1293 48.5075 20.4458 47.81 20.9838 47.271C21.5219 46.7321 22.2498 46.4467 23.0094 46.4467C23.769 46.4467 24.4969 46.7638 25.035 47.271C25.6996 47.9685 41.5562 63.6938 60.546 47.1125C61.1474 46.6052 61.8753 46.3516 62.6666 46.415C63.4262 46.4784 64.1225 46.8272 64.6289 47.3978C65.1353 47.9685 65.3885 48.7294 65.3251 49.4903C65.2935 50.2512 64.9137 50.9804 64.344 51.4877Z"}
+};
 
 /* ---------- type styles (measured from the Figma outlines) ---------- */
 const HEAD = {fam:"RHD", w:800, style:"normal"};
 const SERIF = {fam:"PF", w:700, style:"italic"};
 const SERIF_UP = {fam:"PF", w:700, style:"normal"};
 const BODY = {fam:"OUT", w:400, style:"normal"};
+const BEBAS = {fam:"BEB", w:400, style:"normal"};
 const NAME = {fam:"RHD", w:800, style:"normal"};
 const FADE = [[0,1],[0.905,1],[1,0]];
 
@@ -135,23 +151,29 @@ const TEMPLATES = {
         L({ref:[["Hiring Now..",SERIF]], bbox:[193.2,167.3,425.9,72.3], align:"left"}),
         L({ref:[["Mobile App UI Designer",NAME]], bbox:[198.5,276.3,399.4,33.4], trackEm:0.027, field:"role", align:"left", maxW:500}),
         L({ref:[["UPTO 50K BDT",BODY]], bbox:[198.1,326.7,182.9,15.7], fit:"h", field:"salary", upper:true, align:"left", maxW:500})]
-    }}
+    }},
+  bites:{label:"DM Bites", sub:"News and quick updates", kind:"bites",
+    sample:{category:"News", headline:"*Getty Images,* The World\u2019s Leading Stock Photography Platform *Files for*", source:"Businessbulls"}}
 };
 
 /* ---------- state ---------- */
 const state = {
   tpl:"welcome", fmt:"feed",
-  v:{name:"", desig:"", role:"", promoDesig:"", salary:"", hireRole:"", shortFull:false, award:"rising"},
-  photo:null,
+  v:{name:"", desig:"", role:"", promoDesig:"", salary:"", hireRole:"", shortFull:false, award:"rising",
+     category:"", headline:"", date:new Date(Date.now()-new Date().getTimezoneOffset()*60000).toISOString().slice(0,10), source:""},
+  photo:null,      // person cutout, shared by the people templates
+  newsPhoto:null,  // DM Bites image
   adj:{}
 };
 function adjKey(){return state.tpl+"/"+state.fmt;}
 function adj(){return state.adj[adjKey()] || (state.adj[adjKey()] = {z:1,dx:0,dy:0});}
 function tpl(){return TEMPLATES[state.tpl];}
-function fmts(){return tpl().kind==="hire" ? HIRE_FMTS : PEOPLE_FMTS;}
+function fmts(){const k=tpl().kind; return k==="hire" ? HIRE_FMTS : k==="bites" ? BITES_FMTS : PEOPLE_FMTS;}
+function photoKey(){return tpl().kind==="bites" ? "newsPhoto" : "photo";}
 function usingSample(){
   const t=tpl(), v=state.v;
   if(t.kind==="hire") return !v.hireRole.trim() || !v.salary.trim();
+  if(t.kind==="bites") return !state.newsPhoto || !v.headline.trim();
   if(!state.photo || !v.name.trim()) return true;
   if(state.tpl==="promotion") return !v.role.trim();
   return !v.desig.trim();
@@ -164,6 +186,10 @@ function val(field,id){
     case "role": return t.kind==="hire" ? (v.hireRole.trim() || s.role) : (v.role.trim() || s.role);
     case "promoDesig": return v.promoDesig.trim() || v.role.trim() || s.role;
     case "salary": return v.salary.trim() || s.salary;
+    case "category": return v.category.trim() || s.category;
+    case "headline": return v.headline.trim() || s.headline;
+    case "date": return v.date;
+    case "source": return v.headline.trim() || v.source.trim() ? v.source.trim() : s.source;
   }
   return "";
 }
@@ -179,12 +205,13 @@ function loadImg(key){
 function keysFor(id){
   const t=TEMPLATES[id];
   if(t.kind==="hire") return Object.values(HIRE_FMTS).map(f=>f.bg);
+  if(t.kind==="bites") return ["bites_sample"];
   return [id+"_bleed", id+"_person", ...t.layers.filter(l=>l[0]!=="PERSON"&&l[0]!=="TEXT").map(l=>l[0])];
 }
 async function ensure(id){ const ks=keysFor(id); const ims=await Promise.all(ks.map(loadImg)); const o={}; ks.forEach((k,i)=>o[k]=ims[i]); return o; }
 let fontsReady = null;
 function loadFonts(){
-  if(!fontsReady) fontsReady = Promise.all(["normal 400 50px OUT","normal 800 50px RHD","italic 700 50px PF","normal 700 50px PF"].map(f=>document.fonts.load(f))).then(()=>document.fonts.ready);
+  if(!fontsReady) fontsReady = Promise.all(["normal 400 50px OUT","normal 800 50px RHD","italic 700 50px PF","normal 700 50px PF","normal 400 50px BEB"].map(f=>document.fonts.load(f))).then(()=>document.fonts.ready);
   return fontsReady;
 }
 
@@ -261,10 +288,108 @@ function personRect(id, f, A, sampleImg){
 function offscreen(w,h){const c=document.createElement("canvas"); c.width=w; c.height=h; return c;}
 function drawLayer(ctx, im, m, dx, dy, dw, dh, op){ ctx.save(); ctx.globalCompositeOperation=op||"source-over"; ctx.drawImage(im, dx, dy, dw, dh); ctx.restore(); }
 
+/* ---------- DM Bites ---------- */
+const ORD = n => { const v=n%100; return (v>10&&v<14) ? "th" : ({1:"st",2:"nd",3:"rd"}[n%10] || "th"); };
+const MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+// "*green words* white words" -> [[word, green], ...] per line (Enter forces a break)
+function headlineWords(text){
+  const lines=[]; let on=false;
+  for(const raw of text.split(/\n/)){
+    const words=[];
+    for(const part of raw.split(/(\*)/)){
+      if(part==="*"){ on=!on; continue; }
+      part.split(/(\s+)/).forEach(w=>{ if(!w) return; if(/^\s+$/.test(w)){ if(words.length) words[words.length-1].space=true; return; } words.push({w, on, space:false}); });
+    }
+    lines.push(words);
+  }
+  return lines;
+}
+function layoutHeadline(ctx, text, size){
+  const H=BITES.head; ctx.font=fontStr(BEBAS,size); ctx.letterSpacing=(H.track*size)+"px";
+  const sp=ctx.measureText(" ").width; const out=[];
+  for(const words of headlineWords(text)){
+    let cur=[], w=0;
+    for(const wd of words){
+      const ww=ctx.measureText(wd.w).width;
+      if(cur.length && w+sp+ww>H.w){ out.push({words:cur,w}); cur=[]; w=0; }
+      w += (cur.length?sp:0)+ww; cur.push({...wd, ww});
+    }
+    out.push({words:cur,w});
+  }
+  // Figma centres a line as if it carried one more letter-spacing step than canvas measures
+  out.forEach(l=>l.w-=H.track*size);
+  ctx.letterSpacing="0px";
+  return out;
+}
+function fitHeadline(ctx, text){
+  const H=BITES.head; let size=H.size, lines=layoutHeadline(ctx,text,size), shrunk=false;
+  while(size>H.minSize && (lines.length*size>H.maxH || lines.some(l=>l.w>H.w))){ size-=1; shrunk=true; lines=layoutHeadline(ctx,text,size); }
+  return {size, lines, shrunk};
+}
+function newsRect(A, img){
+  const [px,py,pw,ph]=BITES.photo;
+  const src=state.newsPhoto ? state.newsPhoto.bmp : img, z=Math.max(1,A.z);
+  const iw=src.naturalWidth||src.width, ih=src.naturalHeight||src.height;
+  const sc=Math.max(pw/iw, ph/ih)*z, w=iw*sc, h=ih*sc;
+  // keep the photo area covered: offsets stop at the image edge
+  const mx=(w-pw)/2, my=(h-ph)/2;
+  const dx=Math.max(-mx,Math.min(mx,A.dx)), dy=Math.max(-my,Math.min(my,A.dy));
+  return {src, sw:iw, sh:ih, x:px+pw/2-w/2+dx, y:py+ph/2-h/2+dy, w, h};
+}
+function renderBites(ctx, assets, f, r, A){
+  const k=f.s*r, X=v=>v*k, B=BITES;
+  ctx.fillStyle=B.panelFill; ctx.fillRect(0,0,X(1080),X(1350));   // dark base so no light seam shows at the photo edge
+  // photo
+  const pr=newsRect(A, assets.bites_sample); const [px,py,pw,ph]=B.photo;
+  ctx.save(); ctx.beginPath(); ctx.rect(X(px),X(py),X(pw),X(ph)); ctx.clip(); ctx.imageSmoothingQuality="high";
+  ctx.drawImage(pr.src,0,0,pr.sw,pr.sh,X(pr.x),X(pr.y),X(pr.w),X(pr.h)); ctx.restore();
+  // dark panel
+  ctx.fillStyle=B.panelFill; ctx.fillRect(X(B.panel[0]),X(B.panel[1]),X(B.panel[2]),X(B.panel[3]));
+  ctx.textBaseline="alphabetic"; ctx.textAlign="left";
+  // category tag: the slanted end grows with the word
+  const T=B.tag; const cat=val("category");
+  ctx.font=fontStr(BEBAS,T.size*k); ctx.letterSpacing=(T.track*T.size*k)+"px";
+  const cm=ctx.measureText(cat); const tw=cm.width/k;
+  const asc=cm.fontBoundingBoxAscent/k, desc=cm.fontBoundingBoxDescent/k;
+  const tagR=T.textX+tw;
+  ctx.fillStyle=B.accent; ctx.beginPath(); ctx.moveTo(X(T.x),X(T.y)); ctx.lineTo(X(tagR+T.padTop),X(T.y)); ctx.lineTo(X(tagR+T.padBottom),X(T.y+T.h)); ctx.lineTo(X(T.x),X(T.y+T.h)); ctx.closePath(); ctx.fill();
+  ctx.fillStyle=B.panelFill; ctx.fillText(cat, X(T.textX), X(T.textY+(T.size-(asc+desc))/2+asc));
+  // headline
+  const Hd=B.head; const fit=fitHeadline(ctx, val("headline")); B._shrunk=fit.shrunk && !!state.v.headline.trim();
+  ctx.font=fontStr(BEBAS,fit.size*k); ctx.letterSpacing=(Hd.track*fit.size*k)+"px";
+  const hm=ctx.measureText("H"); const hasc=hm.fontBoundingBoxAscent/k, hdesc=hm.fontBoundingBoxDescent/k;
+  const sp=ctx.measureText(" ").width/k;
+  fit.lines.forEach((ln,i)=>{
+    const by=Hd.y+(Hd.maxH-fit.lines.length*fit.size)/2+i*fit.size+(fit.size-(hasc+hdesc))/2+hasc;   // centred in the three-line box
+    let x=Hd.cx-ln.w/2;
+    ln.words.forEach((wd,j)=>{ ctx.fillStyle=wd.on?B.accent:"#FFFFFF"; ctx.fillText(wd.w,X(x),X(by)); x+=wd.ww+(j<ln.words.length-1?sp:0); });
+  });
+  // rule
+  ctx.fillStyle=B.accent; ctx.fillRect(X(B.rule[0]),X(B.rule[1]-B.rule[3]/2),X(B.rule[2]),X(B.rule[3]));
+  // date and source
+  const M=B.meta; const d=new Date(val("date")+"T12:00:00"); const segs=[];
+  if(!isNaN(d)){ segs.push([String(d.getDate()),"#FFFFFF",M.size,0],[ORD(d.getDate()),"#FFFFFF",M.sup,M.supRise],[` ${MONTHS[d.getMonth()]}, ${d.getFullYear()}`,"#FFFFFF",M.size,0]); }
+  const src=val("source");
+  if(src){ if(segs.length) segs.push(["  ","#FFFFFF",M.size,0],["\u2022 ",B.accent,M.size,0],[" ","#FFFFFF",M.size,0]); segs.push([`Source: ${src}`,"#FFFFFF",M.size,0]); }
+  let mw=0; const ws=segs.map(([t,,sz])=>{ ctx.font=fontStr(BODY,sz*k); ctx.letterSpacing=(M.track*sz*k)+"px"; const w=ctx.measureText(t).width/k; mw+=w; return w; });
+  mw-=M.track*M.size;
+  ctx.font=fontStr(BODY,M.size*k); const mm=ctx.measureText("0"); const masc=mm.fontBoundingBoxAscent/k, mdesc=mm.fontBoundingBoxDescent/k;
+  const mby=M.y+(M.size-(masc+mdesc))/2+masc; let mx=M.cx-mw/2;
+  segs.forEach(([t,col,sz,rise],i)=>{ ctx.font=fontStr(BODY,sz*k); ctx.letterSpacing=(M.track*sz*k)+"px"; ctx.fillStyle=col; ctx.fillText(t,X(mx),X(mby-rise)); mx+=ws[i]; });
+  ctx.letterSpacing="0px";
+  // DM mark
+  ctx.save(); ctx.translate(X(B.mark.x),X(B.mark.y)); ctx.scale(k,k); ctx.fillStyle="#FFFFFF"; ctx.fill(B.mark.path); ctx.restore();
+}
+
 async function render(canvas, id, fk, r, opts={}){
   const t=TEMPLATES[id];
   const assets=await ensure(id); await loadFonts();
   const ctx=canvas.getContext("2d");
+  if(t.kind==="bites"){
+    const f=BITES_FMTS[fk]; canvas.width=Math.round(f.W*r); canvas.height=Math.round(f.H*r);
+    renderBites(ctx, assets, f, r, opts.adj || state.adj[id+"/"+fk] || {z:1,dx:0,dy:0});
+    return;
+  }
   if(t.kind==="hire"){
     const f=HIRE_FMTS[fk]; canvas.width=Math.round(f.W*r); canvas.height=Math.round(f.H*r);
     ctx.drawImage(assets[f.bg],0,0,canvas.width,canvas.height);
@@ -323,17 +448,22 @@ function buildTypes(){
     box.appendChild(b);
   }
 }
-function field(id,label,ph,help){
+function field(id,label,ph,help,multi,type){
   const w=el("div",{class:"field"});
   w.appendChild(el("label",{for:id},label));
-  const i=el("input",{type:"text",id,placeholder:ph?("e.g. "+ph):"",autocomplete:"off"}); w.appendChild(i);
+  const i=multi ? el("textarea",{id,rows:"3",placeholder:ph?("e.g. "+ph):"",autocomplete:"off"}) : el("input",{type:type||"text",id,placeholder:ph?("e.g. "+ph):"",autocomplete:"off"}); w.appendChild(i);
   if(help) w.appendChild(el("small",{},help));
   return w;
 }
 function buildFields(){
   const box=$("fields"); box.innerHTML=""; const t=tpl(), s=t.sample;
   box.appendChild(el("div",{class:"label"},"Details"));
-  const defs = t.kind==="hire" ? [
+  const defs = t.kind==="bites" ? [
+      ["category","Tag",s.category,"Shown on the green tag above the headline, for example: News, Tips or Update."],
+      ["headline","Headline",s.headline.replace(/\*/g,""),"Wrap words in *asterisks* to make them green. Press Enter to force a line break. Long headlines shrink to fit three lines.",true],
+      ["date","Date","","",false,"date"],
+      ["source","Source",s.source,"Leave empty to show only the date."]]
+    : t.kind==="hire" ? [
       ["hireRole","Job title",s.role,"Shown under the headline. Long titles shrink to fit."],
       ["salary","Salary line",s.salary,"Shown in small capitals, for example: Upto 50K BDT or Negotiable."]]
     : state.tpl==="promotion" ? [
@@ -349,15 +479,28 @@ function buildFields(){
       b.onclick=()=>{state.v.award=k; buildFields(); schedule();}; row.appendChild(b);});
     w.appendChild(row); box.appendChild(w);
   }
-  for(const [k,label,ph,help] of defs){
-    const f=field("f_"+k,label,ph,help); box.appendChild(f);
-    const inp=f.querySelector("input"); inp.value=state.v[k]; inp.oninput=()=>{state.v[k]=inp.value; schedule();};
+  for(const [k,label,ph,help,multi,type] of defs){
+    const f=field("f_"+k,label,ph,help,multi,type); box.appendChild(f);
+    const inp=f.querySelector("input,textarea"); inp.value=state.v[k]; inp.oninput=()=>{state.v[k]=inp.value; schedule();};
   }
   if(t.kind==="hire"){
     const c=el("label",{class:"check",for:"f_shortFull"},`<input type="checkbox" id="f_shortFull"><span>Show job title and salary on the 1252 \u00d7 438 banner</span>`);
     box.appendChild(c); const cb=c.querySelector("input"); cb.checked=state.v.shortFull; cb.onchange=()=>{state.v.shortFull=cb.checked; schedule();};
   }
   $("photoSec").hidden = t.kind==="hire";
+  syncPhotoUI();
+}
+const PHOTO_TEXT = {
+  person:{spec:"Transparent PNG \u00b7 waist-up \u00b7 3024 \u00d7 3780 px ideal", title:"Upload the person\u2019s photo", fine:"Drag a PNG here or click to browse.", coarse:"Tap to choose a PNG from your files.", accept:"image/png,image/webp", hint:"Drag the person with your finger.", tip:"Tip: drag the person on the preview to move them (on a phone, tap Move photo first). Each size keeps its own adjustment."},
+  bites:{spec:"JPG, PNG or WebP \u00b7 landscape \u00b7 2160 \u00d7 1734 px or larger", title:"Upload the news image", fine:"Drag an image here or click to browse.", coarse:"Tap to choose an image from your files.", accept:"image/jpeg,image/png,image/webp", hint:"Drag the image with your finger.", tip:"Tip: drag the image on the preview to choose the crop (on a phone, tap Move photo first). It always fills the photo area."}
+};
+function syncPhotoUI(){
+  const bites=tpl().kind==="bites", T=PHOTO_TEXT[bites?"bites":"person"], p=state[photoKey()];
+  $("photoSpec").textContent=T.spec; $("dropTitle").textContent=T.title; $("dropFine").textContent=T.fine; $("dropCoarse").textContent=T.coarse;
+  $("file").accept=T.accept; $("adjTip").textContent=T.tip; if(!moveMode) $("moveHint").textContent=T.hint;
+  $("zoom").min = bites ? 100 : 50;
+  $("drop").hidden=!!p; $("photoCard").hidden=!p; $("photoNote").hidden=true;
+  if(p){ $("thumb").src=p.url; $("photoName").textContent=p.name; $("photoMeta").textContent=p.meta; } else $("thumb").removeAttribute("src");
 }
 function buildFmts(){
   const box=$("fmts"); box.innerHTML="";
@@ -391,12 +534,13 @@ async function draw(){
     const r=Math.min(1, (maxCss*Math.min(2,window.devicePixelRatio||1))/f.W);
     const tmp=offscreen(1,1); await render(tmp,state.tpl,state.fmt,r);
     cv.width=tmp.width; cv.height=tmp.height; cv.getContext("2d").drawImage(tmp,0,0);
-    cv.classList.toggle("draggable", tpl().kind==="person");
-    $("moveRow").classList.toggle("on", tpl().kind==="person");
-    if(tpl().kind!=="person" && moveMode) $("moveToggle").click();
+    const movable=tpl().kind==="person"||tpl().kind==="bites";
+    cv.classList.toggle("draggable", movable);
+    $("moveRow").classList.toggle("on", movable);
+    if(!movable && moveMode) $("moveToggle").click();
     $("sampleBadge").hidden=!usingSample();
-    const t=tpl(); const ls = t.kind==="hire" ? (state.fmt==="short"?(state.v.shortFull?t.lines.shortFull:t.lines.short):t.lines[state.fmt]) : ((t.altLines&&t.altLines[state.v.award])||t.lines);
-    const NAMES={name:"name",desig:"designation",role:t.kind==="hire"?"job title":"new role",promoDesig:"line under the name",salary:"salary line"};
+    const t=tpl(); const ls = t.kind==="bites" ? [{_shrunk:BITES._shrunk, field:"headline"}] : t.kind==="hire" ? (state.fmt==="short"?(state.v.shortFull?t.lines.shortFull:t.lines.short):t.lines[state.fmt]) : ((t.altLines&&t.altLines[state.v.award])||t.lines);
+    const NAMES={name:"name",desig:"designation",role:t.kind==="hire"?"job title":"new role",promoDesig:"line under the name",salary:"salary line",headline:"headline"};
     const shr=[...new Set(ls.filter(l=>l._shrunk).map(l=>NAMES[l.field]))];
     $("fitNote").hidden=!shr.length; if(shr.length) $("fitNote").textContent=`The ${shr.join(" and ")} ${shr.length>1?"were":"was"} made smaller to fit this layout. A shorter version will read better.`;
     $("status").textContent="";
@@ -406,9 +550,22 @@ async function draw(){
 }
 
 /* photo input */
+async function takeNews(file){
+  const note=$("photoNote"); note.hidden=true;
+  if(!/image\/(png|webp|jpeg)/.test(file.type)){ note.textContent="Please use a JPG, PNG or WebP image."; note.hidden=false; return; }
+  const bmp=await createImageBitmap(file);
+  const [,,pw,ph]=BITES.photo, need=pw*BITES_FMTS.feed.s;
+  state.newsPhoto={bmp, name:file.name, url:URL.createObjectURL(file), meta:`${bmp.width} \u00d7 ${bmp.height} px \u00b7 ${(file.size/1048576).toFixed(1)} MB`};
+  Object.keys(state.adj).filter(k=>k.startsWith("bites/")).forEach(k=>delete state.adj[k]);
+  syncPhotoUI(); syncAdj();
+  const cover=Math.max(pw/bmp.width, ph/bmp.height)*BITES_FMTS.feed.s;
+  if(cover>1.25){ note.textContent=`This image is ${bmp.width} \u00d7 ${bmp.height} px, so it will look soft in the ${BITES_FMTS.feed.W} \u00d7 ${BITES_FMTS.feed.H} export. ${need} px wide or more is best.`; note.hidden=false; }
+  schedule();
+}
 async function takeFile(file){
   const note=$("photoNote"); note.hidden=true;
   if(!file) return;
+  if(tpl().kind==="bites") return takeNews(file);
   if(!/image\/(png|webp)/.test(file.type)){ note.textContent="Please use a PNG (or WebP) with the background removed. JPG files have no transparency."; note.hidden=false; return; }
   const bmp=await createImageBitmap(file);
   const s=Math.min(1,600/Math.max(bmp.width,bmp.height));
@@ -417,16 +574,13 @@ async function takeFile(file){
   for(let yy=0;yy<c.height;yy++)for(let xx=0;xx<c.width;xx++){const a=d[(yy*c.width+xx)*4+3]; if(a>10){ if(xx<minX)minX=xx; if(xx>maxX)maxX=xx; if(yy<minY)minY=yy; if(yy>maxY)maxY=yy; } if(a>250)opaque++;}
   if(maxX<0){ note.textContent="This image is fully transparent."; note.hidden=false; return; }
   const sx=Math.floor(minX/s), sy=Math.floor(minY/s), sw=Math.ceil((maxX-minX+1)/s), sh=Math.ceil((maxY-minY+1)/s);
-  state.photo={bmp,sx,sy,sw,sh};
+  state.photo={bmp,sx,sy,sw,sh, name:file.name, url:URL.createObjectURL(file), meta:`${bmp.width} \u00d7 ${bmp.height} px \u00b7 ${(file.size/1048576).toFixed(1)} MB`};
   const msgs=[];
   if(opaque/(c.width*c.height)>0.97) msgs.push("This PNG has no transparent background, so its backdrop will show as a box. Remove the background first.");
   if(sw<900) msgs.push(`The person is only ${sw}px wide in this file. It will look soft in the story size; a larger cutout (1500px+) is better.`);
   if(msgs.length){ note.textContent=msgs.join(" "); note.hidden=false; }
-  $("thumb").src=URL.createObjectURL(file);
-  $("photoName").textContent=file.name;
-  $("photoMeta").textContent=`${bmp.width} \u00d7 ${bmp.height} px \u00b7 ${(file.size/1048576).toFixed(1)} MB`;
-  $("drop").hidden=true; $("photoCard").hidden=false;
-  Object.keys(state.adj).forEach(k=>delete state.adj[k]); syncAdj();
+  Object.keys(state.adj).filter(k=>!k.startsWith("bites/")).forEach(k=>delete state.adj[k]);
+  syncPhotoUI(); if(msgs.length){ note.textContent=msgs.join(" "); note.hidden=false; } syncAdj();
   schedule();
 }
 $("file").onchange=e=>takeFile(e.target.files[0]);
@@ -434,7 +588,7 @@ const drop=$("drop");
 ["dragenter","dragover"].forEach(ev=>drop.addEventListener(ev,e=>{e.preventDefault(); drop.classList.add("over");}));
 ["dragleave","drop"].forEach(ev=>drop.addEventListener(ev,e=>{e.preventDefault(); drop.classList.remove("over");}));
 drop.addEventListener("drop",e=>takeFile(e.dataTransfer.files[0]));
-$("clearPhoto").onclick=()=>{ state.photo=null; $("file").value=""; $("thumb").removeAttribute("src"); $("photoCard").hidden=true; $("drop").hidden=false; $("photoNote").hidden=true; Object.keys(state.adj).forEach(k=>delete state.adj[k]); syncAdj(); schedule(); };
+$("clearPhoto").onclick=()=>{ const bites=tpl().kind==="bites"; state[photoKey()]=null; $("file").value=""; Object.keys(state.adj).filter(k=>k.startsWith("bites/")===bites).forEach(k=>delete state.adj[k]); syncPhotoUI(); syncAdj(); schedule(); };
 $("replacePhoto").onclick=()=>{ $("file").value=""; $("file").click(); };
 $("photoCard").addEventListener("dragover",e=>{e.preventDefault();});
 $("photoCard").addEventListener("drop",e=>{e.preventDefault(); takeFile(e.dataTransfer.files[0]);});
@@ -446,18 +600,20 @@ $("resetPos").onclick=()=>{ state.adj[adjKey()]={z:1,dx:0,dy:0}; syncAdj(); sche
 /* drag on preview */
 let drag=null;
 let moveMode=false;
-$("moveToggle").onclick=()=>{ moveMode=!moveMode; $("moveToggle").setAttribute("aria-pressed",String(moveMode)); $("moveToggle").textContent=moveMode?"Done moving":"Move photo"; cv.classList.toggle("moving",moveMode); $("moveHint").textContent=moveMode?"Dragging is on. Page scrolling is paused on the preview.":"Drag the person with your finger."; };
-cv.addEventListener("pointerdown",e=>{ if(tpl().kind!=="person") return; if(e.pointerType==="touch" && !moveMode) return; const a=adj(); drag={x:e.clientX,y:e.clientY,dx:a.dx,dy:a.dy}; cv.setPointerCapture(e.pointerId); cv.classList.add("dragging"); });
-cv.addEventListener("pointermove",e=>{ if(!drag) return; const f=PEOPLE_FMTS[state.fmt]; const unit=cv.getBoundingClientRect().width/f.W*f.s; const a=adj();
+$("moveToggle").onclick=()=>{ moveMode=!moveMode; $("moveToggle").setAttribute("aria-pressed",String(moveMode)); $("moveToggle").textContent=moveMode?"Done moving":"Move photo"; cv.classList.toggle("moving",moveMode); $("moveHint").textContent=moveMode?"Dragging is on. Page scrolling is paused on the preview.":PHOTO_TEXT[tpl().kind==="bites"?"bites":"person"].hint; };
+cv.addEventListener("pointerdown",e=>{ if(tpl().kind!=="person" && tpl().kind!=="bites") return; if(e.pointerType==="touch" && !moveMode) return; const a=adj(); drag={x:e.clientX,y:e.clientY,dx:a.dx,dy:a.dy}; cv.setPointerCapture(e.pointerId); cv.classList.add("dragging"); });
+cv.addEventListener("pointermove",e=>{ if(!drag) return; const f=fmts()[state.fmt]; const unit=tpl().kind==="bites" ? cv.getBoundingClientRect().width/1080 : cv.getBoundingClientRect().width/f.W*f.s; const a=adj();
   a.dx=Math.max(-500,Math.min(500,drag.dx+(e.clientX-drag.x)/unit)); a.dy=Math.max(-600,Math.min(600,drag.dy+(e.clientY-drag.y)/unit)); syncAdj(); schedule(); });
 ["pointerup","pointercancel"].forEach(ev=>cv.addEventListener(ev,()=>{drag=null; cv.classList.remove("dragging");}));
 
 /* export */
 function slug(s){return s.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"").slice(0,40);}
+function whoSlug(){ const k=tpl().kind; return slug(k==="hire" ? val("role") : k==="bites" ? val("headline").replace(/\*/g,"") : val("name")); }
+function postTag(){ return state.tpl==="rising" ? (state.v.award==="monk"?"monk-of-the-month":"rising-monk") : state.tpl==="bites" ? "dm-bites" : state.tpl; }
 function fileName(fk){
   const t=tpl(), f=fmts()[fk];
-  const who = t.kind==="hire" ? slug(val("role")) : slug(val("name"));
-  const tag = state.tpl==="rising" ? (state.v.award==="monk"?"monk-of-the-month":"rising-monk") : state.tpl;
+  const who = whoSlug();
+  const tag = postTag();
   return `designmonks-${tag}-${who}-${fk}-${f.W}x${f.H}.png`;
 }
 async function pngBlob(fk){ const c=offscreen(1,1); await render(c,state.tpl,fk,1); return await new Promise(res=>c.toBlob(res,"image/png")); }
@@ -505,13 +661,13 @@ $("dlAll").onclick=async()=>{
     const zip=new JSZip(); const keys=Object.keys(fmts());
     for(let i=0;i<keys.length;i++){ $("status").textContent=`Rendering ${i+1} of ${keys.length}\u2026`; zip.file(fileName(keys[i]), await pngBlob(keys[i])); }
     $("status").textContent="Packing zip\u2026";
-    const who = tpl().kind==="hire" ? slug(val("role")) : slug(val("name"));
-    await offer(`designmonks-${state.tpl==="rising"?(state.v.award==="monk"?"monk-of-the-month":"rising-monk"):state.tpl}-${who}-all-sizes.zip`, await zip.generateAsync({type:"blob"}));
+    await offer(`designmonks-${postTag()}-${whoSlug()}-all-sizes.zip`, await zip.generateAsync({type:"blob"}));
   }catch(e){ $("status").textContent="Export failed: "+e.message; }
   setBusy(false);
 };
 window.addEventListener("resize",()=>schedule());
 
 LOGO.path=new Path2D(LOGO.d);
+BITES.mark.path=new Path2D(BITES.mark.d);
 window.__render=render; window.__state=state; window.__T=TEMPLATES;
 buildAll();
